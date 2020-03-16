@@ -1,5 +1,5 @@
 {
-  "name": "curso-ES6",
+  "name": "cursoES6",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:brenoma/curso-ES6",
@@ -11,6 +11,6 @@
     "@babel/preset-env": "^7.8.7"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "dev": "babel ./main.js -o ./bundle.js"
   }
 }
