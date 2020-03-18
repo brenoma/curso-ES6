@@ -1,32 +1,17 @@
-class List {
-    constructor() {
-        this.data = [];
-    }
+const array = [1, 2, 3, 5, 7, 9, 10];
 
-    add(data) {
-        this.data.push(data);
-        console.log(this.data);
-    }
-}
+const newArray = array.map(item => item * 2);
 
-class TodoList extends List {
-    constructor() {
-        super();
+console.log(newArray);
 
-        this.user = 'Breno';
-    }
+const sum = array.reduce(function(total, next) {
+    return total + next;
+});
 
-    showUser() {
-        console.log(this.user);
-    }
-}
+console.log(sum);
 
-var MyList = new TodoList();
+const filter = array.filter(function(item) {
+    return item % 2 === 0;
+});
 
-document.getElementById('btnNewtodo').onclick = function () {
-    MyList.add('Novo Todo');
-}
-
-document.getElementById('btnShowUser').onclick = function () {
-    MyList.showUser();
-}
+console.log(filter)

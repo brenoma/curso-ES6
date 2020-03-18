@@ -17,3 +17,17 @@ Esse curso foi oferecido pela equipe da [Rocketseat](https://skylab.rocketseat.c
 
 3. Classes:
     - Aula sobre classes, construtores e herança em ES6+.
+
+4. Constantes e Variáveis de Escopo:
+    - Const só podem ser atribuidas a um valor, depois de atribuido ele só pode ser lido e não alterado, ou seja, os valores não podem ser reatribuidos.
+    - Mutação: Quando você altera valores dentro de um objeto ou vetores que são const.
+    - let são variáveis de escopo, utilizadas para dentro de um escopo.
+
+5. Operações com vetores em JavaScript:
+    - Método .map para percorrer um vetor e utilização de uma função que recebe cada item do vetor e retorna ele multiplicado por 2.
+    - Método .reduce para pegar o valor total e jogar no próximo valor, ou seja, fazer a soma de todos os itens do vetor.
+    - Método .filter ele vai pegar apenas os valores que estão na condição criada, por exemplo se eu quiser apenas os valores pares eu uso 'return item % 2 === 0;'
+    - Método .find procura um elemento específico dentro de um vetor usando o exemplo 'return item === 4;'
+
+6. Arrow Function:
+    - É bom para deixar o código mais limpo, quando utilizar CallBack, a passagem de uma função para dentro de outra função.
