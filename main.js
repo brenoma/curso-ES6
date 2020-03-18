@@ -4,15 +4,13 @@ class TodoList {
     }
 
     addTodo() {
-        this.todos.push('Novo todo');
-        console.log = (this.todos);
+        this.todos.push('Novo Todo');
+        console.log(this.todos);
     }
 }
 
-const minhaLista = new TodoList();
+const MinhaLista = new TodoList();
 
-
-
-document.getElementById('novotodo').onclick = function() {
-    minhaLista.addTodo();
+document.getElementById('novotodo').onclick = function () {
+    MinhaLista.addTodo();
 }

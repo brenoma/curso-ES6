@@ -16,16 +16,16 @@ var TodoList = /*#__PURE__*/function () {
   _createClass(TodoList, [{
     key: "addTodo",
     value: function addTodo() {
-      this.todos.push('Novo todo');
-      console.log = this.todos;
+      this.todos.push('Novo Todo');
+      console.log(this.todos);
     }
   }]);
 
   return TodoList;
 }();
 
-var minhaLista = new TodoList();
+var MinhaLista = new TodoList();
 
 document.getElementById('novotodo').onclick = function () {
-  minhaLista.addTodo();
+  MinhaLista.addTodo();
 };
