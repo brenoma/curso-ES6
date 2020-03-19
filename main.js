@@ -14,4 +14,22 @@ const filter = array.filter(function(item) {
     return item % 2 === 0;
 });
 
-console.log(filter)
+console.log(filter);
+
+const soma = (a = 0, b = 0) => a + b;
+
+console.log(soma(1, 8));
+
+const usuario = {
+    nome: 'Breno',
+    idade: '27',
+    endereço: {
+        rua: 'Doutor Joaquim Frota',
+        numero: '1060'
+    }
+}
+
+
+const { nome, idade } = usuario;
+
+console.log(nome, idade);

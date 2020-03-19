@@ -31,3 +31,14 @@ Esse curso foi oferecido pela equipe da [Rocketseat](https://skylab.rocketseat.c
 
 6. Arrow Function:
     - É bom para deixar o código mais limpo, quando utilizar CallBack, a passagem de uma função para dentro de outra função.
+    - Não retorna objetos diretamente, precisa ser colocado dentro de ().
+
+7. Valores Padrão:
+    - Quando você chama uma função por exemplo de soma que tem 2 parametros, se você não colocar nenhum parâmetro na chamada da função ele retorna um NaN, para resolver isso podemos colocar valores padrões na função, exemplo. 'soma(a = 0, b = 0);'.
+
+8. Desestruturação de Objetos:
+    - Buscar dentro de objetos atributos específicos, exemplo: 'const { nome, idade } = usuario;'.
+    - Pode também buscar dentro de funções, exemplo: 'function mostraNome = ( { nome } ) console.log(nome);'.
+
+9. Operadores Rest e Spread:
+    - 
